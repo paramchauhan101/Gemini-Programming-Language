@@ -1,37 +1,40 @@
-###Gemini Programming Language
-##The Gemini Programming Language is designed to demonstrate how interpreters work and how commands like input, print, and others function. This language is ##intended to be the easiest for providing examples and explanations.
+# Gemini Programming Language
 
-Features
-Basic Commands
-Control Flow
-Data Structures
-Functions
-Other Important Commands
-Getting Started
-Clone the Repository:
+The **Gemini Programming Language** is designed to demonstrate how interpreters work and how commands like `input`, `print`, and others function. This language is intended to be the easiest for providing examples and explanations.
+
+## Features
+
+- **Basic Commands**
+- **Control Flow**
+- **Data Structures**
+- **Functions**
+- **Other Important Commands**
+
+## Getting Started
+
+1. **Clone the Repository**
+
+   ```sh
+   git clone https://github.com/paramchauhan101/Gemini-Programming-Language.git
+Compile the Interpreter
 
 sh
 Copy code
-git clone https://github.com/yourusername/gemini.git
-Compile the Interpreter:
-
-sh
-Copy code
-cd gemini
+cd Gemini-Programming-Language
 gcc gemini.c -o gemini
-Run the Interpreter:
+Run the Interpreter
 
 sh
 Copy code
 ./gemini
-Execute a Script:
+Execute a Script
 
 sh
 Copy code
 ./gemini your_script.gemini
 Commands
 Basic Commands
-print()
+# print()
 
 Description: Outputs text or variables to the console.
 Usage:
@@ -43,7 +46,7 @@ Example:
 text
 Copy code
 print("Welcome to Gemini!")
-input()
+# input()
 
 Description: Takes user input from the console.
 Usage:
@@ -55,7 +58,7 @@ text
 Copy code
 name = input("What is your name?")
 print("Hello, " + name)
-type()
+# type()
 
 Description: Returns the data type of an object.
 Usage:
@@ -66,7 +69,7 @@ Example:
 text
 Copy code
 print(type(123))  // Outputs: int
-len()
+# len()
 
 Description: Returns the length of an object (e.g., string, list).
 Usage:
@@ -77,7 +80,7 @@ Example:
 text
 Copy code
 print(len("Hello"))  // Outputs: 5
-range()
+# range()
 
 Description: Generates a sequence of numbers.
 Usage:
@@ -90,46 +93,46 @@ Copy code
 for i in range(1, 5):
     print(i)
 Control Flow
-if...elif...else
+# if...elif...else
 
 Description: Conditional execution of code.
 Usage:
 text
 Copy code
 if condition:
-    // code
-elif condition:
-    // code
+    # code
+elif another_condition:
+    # code
 else:
-    // code
+    # code
 Example:
 text
 Copy code
 if age >= 18:
-    print("You are an adult.")
+    print("Adult")
 else:
-    print("You are a minor.")
-for
+    print("Minor")
+# for
 
 Description: Iterates over a sequence (list, string, etc.).
 Usage:
 text
 Copy code
 for item in sequence:
-    // code
+    # code
 Example:
 text
 Copy code
-for i in [1, 2, 3]:
+for i in range(5):
     print(i)
-while
+# while
 
 Description: Repeats code while a condition is true.
 Usage:
 text
 Copy code
 while condition:
-    // code
+    # code
 Example:
 text
 Copy code
@@ -137,23 +140,16 @@ count = 0
 while count < 5:
     print(count)
     count += 1
-break
+# break
 
 Description: Exits a loop prematurely.
 Usage:
 text
 Copy code
-for item in sequence:
+while True:
     if condition:
         break
-Example:
-text
-Copy code
-for i in range(10):
-    if i == 5:
-        break
-    print(i)
-continue
+# continue
 
 Description: Skips the current iteration of a loop.
 Usage:
@@ -162,15 +158,8 @@ Copy code
 for item in sequence:
     if condition:
         continue
-    // code
-Example:
-text
-Copy code
-for i in range(10):
-    if i % 2 == 0:
-        continue
-    print(i)
-pass
+    # code
+# pass
 
 Description: Placeholder statement, does nothing.
 Usage:
@@ -178,13 +167,8 @@ text
 Copy code
 if condition:
     pass
-Example:
-text
-Copy code
-def function():
-    pass
 Data Structures
-list()
+# list()
 
 Description: Creates a mutable list.
 Usage:
@@ -194,8 +178,8 @@ list = [item1, item2, item3]
 Example:
 text
 Copy code
-my_list = [1, 2, 3]
-tuple()
+fruits = ["apple", "banana", "cherry"]
+# tuple()
 
 Description: Creates an immutable tuple.
 Usage:
@@ -205,8 +189,8 @@ tuple = (item1, item2, item3)
 Example:
 text
 Copy code
-my_tuple = (1, 2, 3)
-dict()
+coordinates = (10, 20)
+# dict()
 
 Description: Creates a dictionary (key-value pairs).
 Usage:
@@ -216,8 +200,8 @@ dict = {key1: value1, key2: value2}
 Example:
 text
 Copy code
-my_dict = {"name": "Alice", "age": 30}
-set()
+person = {"name": "Alice", "age": 30}
+# set()
 
 Description: Creates a set (unique elements).
 Usage:
@@ -227,8 +211,8 @@ set = {item1, item2, item3}
 Example:
 text
 Copy code
-my_set = {1, 2, 3}
-append()
+unique_numbers = {1, 2, 3}
+# append()
 
 Description: Adds an element to the end of a list.
 Usage:
@@ -238,9 +222,8 @@ list.append(item)
 Example:
 text
 Copy code
-my_list = [1, 2, 3]
-my_list.append(4)
-pop()
+fruits.append("orange")
+# pop()
 
 Description: Removes and returns the last element of a list.
 Usage:
@@ -250,9 +233,8 @@ list.pop()
 Example:
 text
 Copy code
-my_list = [1, 2, 3]
-last_item = my_list.pop()
-insert()
+last_fruit = fruits.pop()
+# insert()
 
 Description: Inserts an element at a specific position in a list.
 Usage:
@@ -262,23 +244,22 @@ list.insert(index, item)
 Example:
 text
 Copy code
-my_list = [1, 3]
-my_list.insert(1, 2)
+fruits.insert(1, "blueberry")
 Functions
-def
+# def
 
 Description: Defines a function.
 Usage:
 text
 Copy code
 def function_name(parameters):
-    // code
+    # code
 Example:
 text
 Copy code
 def greet(name):
     print("Hello, " + name)
-return
+# return
 
 Description: Returns a value from a function.
 Usage:
@@ -290,18 +271,18 @@ text
 Copy code
 def add(a, b):
     return a + b
-lambda
+# lambda
 
 Description: Creates an anonymous function.
 Usage:
 text
 Copy code
-lambda parameters: expression
+lambda arguments: expression
 Example:
 text
 Copy code
-square = lambda x: x * x
-map()
+add = lambda x, y: x + y
+# map()
 
 Description: Applies a function to every item in an iterable.
 Usage:
@@ -312,8 +293,8 @@ Example:
 text
 Copy code
 numbers = [1, 2, 3]
-squares = map(lambda x: x * x, numbers)
-filter()
+squared = map(lambda x: x**2, numbers)
+# filter()
 
 Description: Filters elements from an iterable based on a function.
 Usage:
@@ -324,38 +305,6 @@ Example:
 text
 Copy code
 numbers = [1, 2, 3, 4]
-evens = filter(lambda x: x % 2 == 0, numbers)
-Other Important Commands
-import
-
-Description: Imports a module to access its functionality.
-Usage:
-text
-Copy code
-import module_name
-Example:
-text
-Copy code
-import math
-help()
-
-Description: Displays documentation for a specific function or module.
-Usage:
-text
-Copy code
-help(object)
-Example:
-text
-Copy code
-help(print)
-dir()
-
-Description: Lists all attributes and methods of an object.
-Usage:
-text
-Copy code
-dir(object)
-Example:
-text
-Copy code
-dir(math)
+even_numbers = filter(lambda x: x % 2 == 0, numbers)
+Contribution
+Feel free to contribute to the project by submitting issues, feature requests, and code improvements.
