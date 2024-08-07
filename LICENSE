@@ -1,21 +1,57 @@
-MIT License
+AGREEMENT
 
-Copyright (c) 2024 Param Chauhan
+GNU AFFERO GENERAL PUBLIC LICENSE
+Version 3, 19 November 2007
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Copyright (C) 2007 Free Software Foundation, Inc. <https://fsf.org/>
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Preamble
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+The GNU Affero General Public License is a free software license that guarantees end users the freedom to run, study, share, and modify the software, and also ensures that these freedoms are preserved for all future users. The Affero General Public License extends the requirements of the GNU General Public License to software that is used over a network.
+
+This License is a powerful tool to protect the rights of users and developers. It is intended to promote and ensure the continued availability and free distribution of software, as well as to foster collaboration and improvement within the community.
+
+Terms and Conditions
+
+  0. Definitions.
+  
+     1. "This License" refers to version 3 of the GNU Affero General Public License.
+     2. "Copyright holder" means the individual or entity that holds the copyright of the Program.
+     3. "The Program" refers to any work or works on which the copyright is held by the copyright holder and which is distributed under this License.
+     4. "Source code" means the preferred form of the Program for making modifications to it.
+     5. "Object code" means any non-source form of a Program.
+     6. "Modified version" of the Program means any work based on the Program or any work containing the Program or a portion of it, either verbatim or with modifications, and made available under the terms of this License.
+     7. "Network server" means a computer server providing services to users through a network.
+
+  1. The Affero General Public License (AGPL) requires that any modified version of the Program that is used on a network server must make the source code available to users.
+
+  2. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, under the terms of this License.
+
+  3. You may modify your copy of the Program or any portion of it under the terms of this License, and copy and distribute such modifications or derivative works under the terms of this License.
+
+  4. You must provide all users with access to the source code of the Program as modified by you, either by providing a copy of the source code or by providing access to it over a network.
+
+  5. You must keep intact all notices stating that this License applies to the Program and all copies or substantial portions of it.
+
+  6. You must include a copy of this License with every copy of the Program that you distribute or make available under this License.
+
+  7. If you use the Program to provide a service over a network, you must provide access to the source code of the Program to users of that service, in accordance with the terms of this License.
+
+  8. Any attempt to enforce any additional restrictions on the rights granted by this License is invalid and shall be deemed null and void.
+
+  9. This License will terminate automatically if you fail to comply with any of its terms.
+
+  10. The Free Software Foundation may publish revised and/or new versions of the License from time to time. Such new versions will be similar in spirit to the present version but may differ in detail to address new issues or concerns.
+
+  11. If any provision of this License is found to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+  12. This License shall be governed by the laws of the United States of America and shall be interpreted in accordance with the principles of equity and fairness.
+
+  13. The Free Software Foundation is the authority on the interpretation of this License. Any disputes arising under this License shall be resolved in accordance with the procedures established by the Free Software Foundation.
+
+  14. This License does not grant you any rights to use the name, trademark, or other identifiers of the Free Software Foundation or its projects, except as required by the License.
+
+  15. If you have any questions or need additional information about this License, please contact the Free Software Foundation.
+
